@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev:scss": "sass --watch scss/:css/",
+    "dev:server": "live-server",
+    "all": "npm-run-all --parallel dev:*"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.62.1"
+  }
+}
